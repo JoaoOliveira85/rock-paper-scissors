@@ -1,0 +1,45 @@
+html {
+    font-size: 12px;
+}
+
+body {
+    background-image: url(/media/bg.jpg);
+    background-size: cover;
+}
+
+#game {
+    position: absolute;
+    top: 20vh;
+    left: 20vw;
+    display: grid;
+    width: 50vw;
+    font-size: 1em;
+    grid-template-rows: 1fr 4fr 1fr;
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 500px;
+    padding: 25px;
+    box-shadow: 5px 5px 10px black;
+}
+
+#controls {
+        display: grid;
+        width: 50vw;
+        grid-template-columns: 3fr 2fr;
+        height: 120px;
+        column-gap: 20px;
+}   
+
+#results {
+    display: grid;
+    width: 50vw;
+    grid-template-columns: 3fr 2fr;
+    height: 23em;
+    column-gap: 20px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
